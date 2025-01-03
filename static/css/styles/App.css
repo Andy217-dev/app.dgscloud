@@ -1,0 +1,294 @@
+* {
+  font-family: "Urbanist", sans-serif !important;
+}
+
+.tsparticles canvas {
+  position: absolute !important;
+}
+
+.bg-button-dapp {
+  background: rgb(0, 133, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 133, 255, 1) 0%,
+    rgba(23, 255, 213, 1) 100%
+  );
+}
+
+.bg-dapp-hover {
+  background-color: #000;
+}
+
+.bg-text-dapp {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.47524947478991597) 0%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.text-button-dapp {
+  background: rgb(0, 133, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 133, 255, 1) 0%,
+    rgba(23, 255, 213, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-dapp-hover:hover {
+  background: rgb(0, 133, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 133, 255, 1) 0%,
+    rgba(23, 255, 213, 1) 100%
+  );
+}
+
+.bg-dapp-hover:hover .bg-text-dapp {
+  background: rgb(0, 133, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 133, 255, 1) 0%,
+    rgba(23, 255, 213, 1) 100%
+  );
+}
+
+.bg-dapp-hover:hover .text-button-dapp {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.--button-nav {
+  border: 1px solid #ffffff2d;
+  background: rgb(89, 176, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(89, 176, 255, 1) 0%,
+    rgba(143, 0, 255, 1) 100%
+  );
+}
+
+.glass-effect {
+  background: rgba(2, 69, 132, 0.445);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(0, 133, 255, 0.18);
+}
+
+.glass-effect2 {
+  background: rgba(12, 58, 101, 0.352);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 58, 101, 0.145) 0%,
+    rgba(142, 184, 224, 0.425) 100%
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  border-radius: 0.75rem /* 12px */;
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(0, 133, 255, 1);
+}
+
+.--border-features {
+  background: rgb(23, 255, 213);
+  background: linear-gradient(
+    185deg,
+    rgba(23, 255, 213, 1) 0%,
+    rgba(26, 26, 29, 0) 100%
+  );
+  padding: 1px;
+}
+
+.--bg-features {
+  background: rgba(2, 69, 132, 0.493);
+  background: linear-gradient(
+    185deg,
+    rgb(2, 46, 87) 0%,
+    rgb(2, 47, 88) 50%,
+    rgba(11, 30, 48, 1) 100%
+  );
+}
+
+.--bg-features2 {
+  background: rgb(50, 71, 92);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 71, 92, 1) 0%,
+    rgba(24, 52, 77, 1) 100%
+  );
+}
+
+.--blur-effect {
+  filter: blur(4rem);
+}
+
+.--bg-key {
+  background: rgb(2, 70, 132);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 70, 132, 0.5) 0%,
+    rgba(4, 66, 123, 0.5) 50%,
+    rgba(11, 30, 48, 1) 100%
+  );
+  border: 1px solid #0084ff79;
+}
+
+.highcharts-background {
+  background-color: transparent !important;
+  fill: transparent !important;
+}
+
+.highcharts-point {
+  stroke: transparent !important;
+}
+
+.--child-key {
+  background: rgb(96, 158, 215);
+  background: linear-gradient(
+    180deg,
+    rgba(96, 158, 215, 0.5) 0%,
+    rgba(24, 89, 149, 0.5) 100%
+  );
+}
+
+.mini-blur-effect {
+  filter: blur(3px);
+}
+
+.test {
+  mix-blend-mode: screen;
+}
+
+.--bg-token {
+  background: rgb(140, 249, 236);
+  background: linear-gradient(
+    180deg,
+    rgba(140, 249, 236, 0.13071165966386555) 0%,
+    rgba(152, 255, 236, 0.321187850140056) 100%
+  );
+}
+
+.--text-home {
+  background: rgb(192, 225, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(192, 225, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(192, 225, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.--bg-taxation {
+  background: rgb(217, 217, 217);
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.2) 0%,
+    rgba(115, 115, 115, 0.15) 100%
+  );
+}
+
+.--service-grad {
+  background: rgb(0, 133, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 133, 255, 1) 0%,
+    rgba(143, 0, 255, 1) 50%,
+    rgba(23, 255, 213, 1) 100%
+  );
+  filter: blur(2rem);
+}
+
+.--chart-green {
+  background: rgb(7, 157, 130);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 157, 130, 0.19793855042016806) 0%,
+    rgba(22, 236, 197, 1) 100%
+  );
+}
+
+.--chart-blue {
+  background: rgb(7, 82, 152);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 82, 152, 0.2) 0%,
+    rgba(0, 133, 255, 1) 100%
+  );
+}
+
+.--chart-purple {
+  background: rgb(108, 17, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(108, 17, 180, 0.2) 0%,
+    rgba(143, 0, 255, 1) 100%
+  );
+}
+
+.--btn-blue {
+  background: rgb(5, 75, 139);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 75, 139, 1) 0%,
+    rgba(0, 133, 255, 1) 100%
+  );
+}
+
+.--btn-green {
+  background: rgb(9, 176, 146);
+  background: linear-gradient(
+    0deg,
+    rgba(9, 176, 146, 1) 0%,
+    rgba(5, 192, 158, 1) 50%,
+    rgba(23, 255, 213, 1) 100%
+  );
+}
+
+.rotate-image1 {
+  animation: rotate-animation 40s infinite linear;
+}
+
+.rotate-image2 {
+  animation: rotate-animation2 25s infinite linear;
+}
+
+.img-home {
+  mix-blend-mode: screen;
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-animation2 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

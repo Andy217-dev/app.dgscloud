@@ -1,0 +1,44 @@
+var _path, _path2, _rect, _rect2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgSupportSvg(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 40,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M39.4937 17.2785C39.4937 7.73584 31.7578 0 22.2152 0V0C12.6725 0 4.93666 7.73584 4.93666 17.2785V17.2785C4.93666 26.8211 12.6725 34.557 22.2152 34.557H38.4937C39.0459 34.557 39.4937 34.1093 39.4937 33.557V17.2785Z",
+    fill: "#336593"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M0 23.8609C0 15.2271 6.9991 8.22803 15.6329 8.22803V8.22803C24.2667 8.22803 31.2658 15.2271 31.2658 23.8609V23.8609C31.2658 32.4948 24.2667 39.4939 15.6329 39.4939H0.999998C0.447714 39.4939 0 39.0462 0 38.4939V23.8609Z",
+    fill: "#5D9DD8"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 8.22791,
+    y: 19.7471,
+    width: 14.8101,
+    height: 3.29114,
+    rx: 1.64557,
+    fill: "#17FFD5"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 8.22791,
+    y: 26.3291,
+    width: 9.87343,
+    height: 3.29114,
+    rx: 1.64557,
+    fill: "#17FFD5"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgSupportSvg);
+export default __webpack_public_path__ + "static/media/SupportSvg.ca143983832aee54c31886bd45a038b9.svg";
+export { ForwardRef as ReactComponent };

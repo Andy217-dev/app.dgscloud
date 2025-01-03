@@ -1,0 +1,31 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgLoading(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 39,
+    height: 39,
+    viewBox: "0 0 39 39",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    opacity: 0.5,
+    d: "M19.1667 0C15.3759 0 11.6702 1.12411 8.51828 3.23018C5.36632 5.33625 2.90967 8.32968 1.45899 11.8319C0.00830464 15.3342 -0.371261 19.188 0.368292 22.906C1.10785 26.624 2.9333 30.0392 5.61382 32.7197C8.29433 35.4002 11.7095 37.2256 15.4275 37.9652C19.1455 38.7048 22.9993 38.3252 26.5015 36.8745C30.0038 35.4238 32.9972 32.9672 35.1033 29.8152C37.2094 26.6633 38.3335 22.9576 38.3335 19.1667C38.3335 16.6497 37.8377 14.1574 36.8745 11.8319C35.9113 9.50653 34.4995 7.3936 32.7197 5.61381C30.9399 3.83401 28.827 2.4222 26.5015 1.45898C24.1761 0.495762 21.6838 0 19.1667 0ZM19.1667 34.5001C16.1341 34.5001 13.1695 33.6008 10.648 31.916C8.12641 30.2311 6.16109 27.8364 5.00054 25.0346C3.83999 22.2328 3.53634 19.1497 4.12798 16.1753C4.71963 13.201 6.17999 10.4688 8.3244 8.32439C10.4688 6.17998 13.201 4.71962 16.1754 4.12797C19.1497 3.53633 22.2328 3.83999 25.0346 5.00053C27.8364 6.16108 30.2311 8.1264 31.916 10.648C33.6008 13.1695 34.5001 16.1341 34.5001 19.1667C34.5001 23.2334 32.8847 27.1335 30.0091 30.0091C27.1335 32.8847 23.2334 34.5001 19.1667 34.5001Z",
+    fill: "#97CDFF"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M34.5004 19.1667H38.3337C38.3337 16.6497 37.838 14.1574 36.8748 11.8319C35.9115 9.50653 34.4997 7.3936 32.7199 5.61381C30.9401 3.83401 28.8272 2.4222 26.5018 1.45898C24.1764 0.495762 21.684 0 19.167 0V3.83335C23.2337 3.83335 27.1338 5.44882 30.0093 8.32439C32.8849 11.2 34.5004 15.1001 34.5004 19.1667Z",
+    fill: "#97CDFF"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgLoading);
+export default __webpack_public_path__ + "static/media/Loading.d69973d69425b28b0d6e1a4a21e51d0c.svg";
+export { ForwardRef as ReactComponent };

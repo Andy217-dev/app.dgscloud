@@ -1,0 +1,209 @@
+var _path, _circle, _circle2, _circle3, _path2, _circle4, _circle5, _circle6, _path3, _circle7, _circle8, _circle9, _path4, _circle10, _circle11, _circle12, _path5, _circle13, _circle14, _circle15, _path6, _circle16, _circle17, _circle18, _path7, _circle19, _circle20, _circle21, _path8, _circle22, _circle23, _circle24, _circle25, _circle26;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCdn(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 56,
+    height: 56,
+    viewBox: "0 0 56 56",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M28.0005 13.0669L28.0005 10.3634",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0007,
+    cy: 5.40716,
+    r: 4.05524,
+    transform: "rotate(-180 28.0007 5.40716)",
+    fill: "#336593"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0005,
+    cy: 5.40697,
+    r: 4.90699,
+    transform: "rotate(-180 28.0005 5.40697)",
+    stroke: "#17FFD5"
+  })), _circle3 || (_circle3 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0005,
+    cy: 5.40696,
+    r: 3.15408,
+    transform: "rotate(-180 28.0005 5.40696)",
+    fill: "#5D9DD8"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M28.0005 42.9341L28.0005 45.6376",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle4 || (_circle4 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0003,
+    cy: 50.5938,
+    r: 4.05524,
+    fill: "#336593"
+  })), _circle5 || (_circle5 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0005,
+    cy: 50.594,
+    r: 4.90699,
+    stroke: "#17FFD5"
+  })), _circle6 || (_circle6 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0005,
+    cy: 50.594,
+    r: 3.15408,
+    fill: "#5D9DD8"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M42.9341 28L45.6376 28",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle7 || (_circle7 = /*#__PURE__*/React.createElement("circle", {
+    cx: 50.5941,
+    cy: 27.9999,
+    r: 4.05524,
+    transform: "rotate(-90 50.5941 27.9999)",
+    fill: "#336593"
+  })), _circle8 || (_circle8 = /*#__PURE__*/React.createElement("circle", {
+    cx: 50.594,
+    cy: 28.0002,
+    r: 4.90699,
+    transform: "rotate(-90 50.594 28.0002)",
+    stroke: "#17FFD5"
+  })), _circle9 || (_circle9 = /*#__PURE__*/React.createElement("circle", {
+    cx: 50.594,
+    cy: 28.0002,
+    r: 3.15408,
+    transform: "rotate(-90 50.594 28.0002)",
+    fill: "#5D9DD8"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.0669 28.0005L10.3634 28.0005",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle10 || (_circle10 = /*#__PURE__*/React.createElement("circle", {
+    cx: 5.40692,
+    cy: 28.0006,
+    r: 4.05524,
+    transform: "rotate(90 5.40692 28.0006)",
+    fill: "#336593"
+  })), _circle11 || (_circle11 = /*#__PURE__*/React.createElement("circle", {
+    cx: 5.40697,
+    cy: 28.0003,
+    r: 4.90699,
+    transform: "rotate(90 5.40697 28.0003)",
+    stroke: "#17FFD5"
+  })), _circle12 || (_circle12 = /*#__PURE__*/React.createElement("circle", {
+    cx: 5.40696,
+    cy: 28.0003,
+    r: 3.15408,
+    transform: "rotate(90 5.40696 28.0003)",
+    fill: "#5D9DD8"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M38.5601 38.5596L40.4717 40.4712",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle13 || (_circle13 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9764,
+    cy: 43.9761,
+    r: 4.05524,
+    transform: "rotate(-45 43.9764 43.9761)",
+    fill: "#336593"
+  })), _circle14 || (_circle14 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9765,
+    cy: 43.9761,
+    r: 4.90699,
+    transform: "rotate(-45 43.9765 43.9761)",
+    stroke: "#17FFD5"
+  })), _circle15 || (_circle15 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9764,
+    cy: 43.9761,
+    r: 3.15408,
+    transform: "rotate(-45 43.9764 43.9761)",
+    fill: "#5D9DD8"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    d: "M17.4409 17.4404L15.5293 15.5288",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle16 || (_circle16 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0243,
+    cy: 12.0239,
+    r: 4.05524,
+    transform: "rotate(135 12.0243 12.0239)",
+    fill: "#336593"
+  })), _circle17 || (_circle17 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0245,
+    cy: 12.0239,
+    r: 4.90699,
+    transform: "rotate(135 12.0245 12.0239)",
+    stroke: "#17FFD5"
+  })), _circle18 || (_circle18 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0246,
+    cy: 12.0239,
+    r: 3.15408,
+    transform: "rotate(135 12.0246 12.0239)",
+    fill: "#5D9DD8"
+  })), _path7 || (_path7 = /*#__PURE__*/React.createElement("path", {
+    d: "M17.4409 38.5596L15.5293 40.4712",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle19 || (_circle19 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0244,
+    cy: 43.9757,
+    r: 4.05524,
+    transform: "rotate(45 12.0244 43.9757)",
+    fill: "#336593"
+  })), _circle20 || (_circle20 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0244,
+    cy: 43.9757,
+    r: 4.90699,
+    transform: "rotate(45 12.0244 43.9757)",
+    stroke: "#17FFD5"
+  })), _circle21 || (_circle21 = /*#__PURE__*/React.createElement("circle", {
+    cx: 12.0244,
+    cy: 43.9762,
+    r: 3.15408,
+    transform: "rotate(45 12.0244 43.9762)",
+    fill: "#5D9DD8"
+  })), _path8 || (_path8 = /*#__PURE__*/React.createElement("path", {
+    d: "M38.5601 17.4404L40.4717 15.5288",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })), _circle22 || (_circle22 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9763,
+    cy: 12.0238,
+    r: 4.05524,
+    transform: "rotate(-135 43.9763 12.0238)",
+    fill: "#336593"
+  })), _circle23 || (_circle23 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9766,
+    cy: 12.0238,
+    r: 4.90699,
+    transform: "rotate(-135 43.9766 12.0238)",
+    stroke: "#17FFD5"
+  })), _circle24 || (_circle24 = /*#__PURE__*/React.createElement("circle", {
+    cx: 43.9763,
+    cy: 12.0238,
+    r: 3.15408,
+    transform: "rotate(-135 43.9763 12.0238)",
+    fill: "#5D9DD8"
+  })), _circle25 || (_circle25 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0004,
+    cy: 28.0007,
+    r: 15.5558,
+    fill: "#336593"
+  })), _circle26 || (_circle26 = /*#__PURE__*/React.createElement("circle", {
+    cx: 28.0006,
+    cy: 28.0003,
+    r: 11.4447,
+    fill: "#5D9DD8",
+    stroke: "#17FFD5",
+    strokeWidth: 2
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCdn);
+export default __webpack_public_path__ + "static/media/Cdn.badc6a52f628e61f606c5514ac27e1cf.svg";
+export { ForwardRef as ReactComponent };

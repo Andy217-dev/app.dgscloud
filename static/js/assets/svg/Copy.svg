@@ -1,0 +1,58 @@
+var _path, _path2, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCopy(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 18,
+    height: 18,
+    viewBox: "0 0 18 18",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M5.25 4.5H4.5C3.25736 4.5 2.25 5.50736 2.25 6.75V14.25C2.25 15.4926 3.25736 16.5 4.5 16.5H10.5C11.7426 16.5 12.75 15.4926 12.75 14.25V13.5H11.25V14.25C11.25 14.6642 10.9142 15 10.5 15H4.5C4.08579 15 3.75 14.6642 3.75 14.25V6.75C3.75 6.33579 4.08579 6 4.5 6H5.25V4.5Z",
+    fill: "url(#paint0_linear_140_10)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M15.7426 5.25C15.7475 5.31032 15.75 5.37102 15.75 5.43198V11.25C15.75 12.4926 14.7426 13.5 13.5 13.5H7.5C6.25736 13.5 5.25 12.4926 5.25 11.25V3.75C5.25 2.50736 6.25736 1.5 7.5 1.5H11.818C11.879 1.5 11.9397 1.50247 12 1.50737V1.5L12.008 1.50803C12.5352 1.55269 13.0321 1.78207 13.409 2.15901L15.091 3.84099C15.4679 4.21793 15.6973 4.71484 15.742 5.24197L15.75 5.25H15.7426ZM13.5 12H7.5C7.08579 12 6.75 11.6642 6.75 11.25V3.75C6.75 3.33579 7.08579 3 7.5 3H11.818C11.8799 3 11.941 3.00764 12 3.02241V3.75C12 4.57843 12.6716 5.25 13.5 5.25H14.2276C14.2424 5.30903 14.25 5.37011 14.25 5.43198V11.25C14.25 11.6642 13.9142 12 13.5 12Z",
+    fill: "url(#paint1_linear_140_10)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_140_10",
+    x1: 7.5,
+    y1: 4.5,
+    x2: 7.5,
+    y2: 16.5,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0.005,
+    stopColor: "#534EED"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#9747FF"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_140_10",
+    x1: 10.5,
+    y1: 1.5,
+    x2: 10.5,
+    y2: 13.5,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    offset: 0.005,
+    stopColor: "#534EED"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#9747FF"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCopy);
+export default __webpack_public_path__ + "static/media/Copy.c27916dc9edd0fff6630be8c53495727.svg";
+export { ForwardRef as ReactComponent };

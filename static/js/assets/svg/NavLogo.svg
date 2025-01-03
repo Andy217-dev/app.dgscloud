@@ -1,0 +1,30 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgNavLogo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 78,
+    height: 83,
+    viewBox: "0 0 78 83",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M18.9191 52.601V30.399C18.9191 27.3848 17.739 24.5177 15.6 22.3857L8.92482 15.7325C5.60567 12.461 0 14.7768 0 19.4083V63.5917C0 68.2232 5.60567 70.539 8.92482 67.2675L15.6 60.6143C17.739 58.4823 18.9191 55.6151 18.9191 52.601Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M65.793 12.167C61.9575 8.34411 57.532 5.3667 52.5532 3.27148C47.427 1.10275 41.9688 0 36.3632 0H19.1036C14.4568 0 12.1334 5.58724 15.4157 8.89548L22.0908 15.5487C24.2298 17.6807 27.1064 18.857 30.1305 18.857H35.9944C48.4596 18.857 58.8596 28.7081 59.044 41.1324C59.2284 53.7772 48.9759 64.1063 36.3263 64.1063H30.1305C27.1064 64.1063 24.2298 65.2825 22.0908 67.4145L15.4157 74.0678C12.1334 77.3392 14.4568 82.9632 19.1036 82.9632H36.3263C41.932 82.9632 47.3901 81.8605 52.5532 79.6918C57.532 77.5965 61.9575 74.6191 65.793 70.7963C69.6284 66.9734 72.6157 62.5624 74.7178 57.6001C76.8937 52.4907 78.0001 47.0505 78.0001 41.4265C78.0001 35.8025 76.8937 30.399 74.7178 25.2529C72.6157 20.4008 69.6284 15.9531 65.793 12.167Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgNavLogo);
+export default __webpack_public_path__ + "static/media/NavLogo.bea34bde253aae92617a46a6acfe3f96.svg";
+export { ForwardRef as ReactComponent };

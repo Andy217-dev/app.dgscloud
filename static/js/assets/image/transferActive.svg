@@ -1,0 +1,36 @@
+var _path, _path2, _path3, _path4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgTransferActive(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 70,
+    height: 49,
+    viewBox: "0 0 70 49",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M43.5 8.33365H25.6451V2.00767C25.6451 0.372868 23.7971 -0.565367 22.475 0.372868L0.668137 15.868C0.227451 16.1807 0 16.664 0 17.1616C0 17.6449 0.227451 18.1283 0.668137 18.441L22.475 33.9361C23.7971 34.8743 25.6451 33.9361 25.6451 32.3013V25.9469H34.8L35.3544 25.7621V23.0184L34.8 22.8194H22.5319V30.1547L4.25049 17.1616L22.5461 4.15424V11.4469H43.5142C43.9407 11.4469 44.3387 11.2763 44.6088 10.992C44.8931 10.7077 45.0637 10.3238 45.0637 9.88316C45.0637 9.03022 44.3671 8.33365 43.5 8.33365Z",
+    fill: "#17FFD5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M35.3544 23.0184V25.7621L34.8 25.9469H25.6451V32.3155C25.6451 33.9503 23.7971 34.8885 22.475 33.9503L0.668137 18.4552C0.227451 18.1424 0 17.6591 0 17.1758H4.23627L22.5319 30.1689V22.8194H34.8L35.3544 23.0184Z",
+    fill: "#17FFD5"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M68.9321 30.326L47.1253 14.8309C45.8032 13.8926 43.9552 14.8309 43.9552 16.4657V22.8201H34.8003V25.9475H47.0684V18.6122L65.364 31.6054L47.0684 44.6127V37.3201H26.1003C25.6738 37.3201 25.2758 37.4907 25.0057 37.775C24.7214 38.0593 24.5508 38.4431 24.5508 38.8838C24.5508 39.751 25.2474 40.4475 26.1003 40.4475H43.9552V46.7735C43.9552 48.4083 45.8032 49.3466 47.1253 48.4083L68.9321 32.9132C69.3728 32.6005 69.6003 32.1171 69.6003 31.6196C69.5861 31.122 69.3728 30.6387 68.9321 30.326Z",
+    fill: "#17FFD5"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M69.5861 31.605C69.5861 32.0884 69.3586 32.5717 68.9179 32.8987L47.1111 48.3938C45.789 49.332 43.941 48.3938 43.941 46.759V40.433H26.1003C25.2474 40.433 24.5508 39.7364 24.5508 38.8692C24.5508 38.4428 24.7214 38.0447 25.0057 37.7604C25.29 37.4761 25.6738 37.3055 26.1003 37.3055H47.0684V44.5982L65.364 31.5908L69.5861 31.605Z",
+    fill: "#17FFD5"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgTransferActive);
+export default __webpack_public_path__ + "static/media/transferActive.646becf4a3be62ba2629b327301f5f75.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,233 @@
+var _path, _rect, _rect2, _rect3, _rect4, _rect5, _rect6, _rect7, _rect8, _rect9, _rect10, _rect11, _rect12, _rect13, _path2, _rect14, _rect15, _rect16, _rect17, _rect18, _rect19, _rect20, _rect21, _rect22, _rect23, _rect24, _rect25, _rect26, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgBareMetal(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 50,
+    height: 43,
+    viewBox: "0 0 50 43",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M0 2C0 0.895431 0.895431 0 2 0H21.2917C22.3962 0 23.2917 0.895431 23.2917 2V43H0V2Z",
+    fill: "url(#paint0_linear_232_284)"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 1.79175,
+    y: 20.6041,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.79175,
+    y: 14.3334,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.79175,
+    y: 8.0625,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect4 || (_rect4 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.79175,
+    y: 1.79163,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect5 || (_rect5 = /*#__PURE__*/React.createElement("rect", {
+    y: 38.5209,
+    width: 23.2917,
+    height: 4.47917,
+    fill: "#295A88"
+  })), _rect6 || (_rect6 = /*#__PURE__*/React.createElement("rect", {
+    x: 2.6875,
+    y: 2.6875,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect7 || (_rect7 = /*#__PURE__*/React.createElement("rect", {
+    x: 2.6875,
+    y: 8.95837,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect8 || (_rect8 = /*#__PURE__*/React.createElement("rect", {
+    x: 7.16675,
+    y: 15.2291,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect9 || (_rect9 = /*#__PURE__*/React.createElement("rect", {
+    x: 17.9167,
+    y: 2.6875,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect10 || (_rect10 = /*#__PURE__*/React.createElement("rect", {
+    x: 17.9167,
+    y: 8.95837,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect11 || (_rect11 = /*#__PURE__*/React.createElement("rect", {
+    x: 2.6875,
+    y: 15.2291,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect12 || (_rect12 = /*#__PURE__*/React.createElement("rect", {
+    x: 7.16675,
+    y: 21.5,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect13 || (_rect13 = /*#__PURE__*/React.createElement("rect", {
+    x: 2.6875,
+    y: 21.5,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M26 2C26 0.895431 26.8954 0 28 0H47.2917C48.3962 0 49.2917 0.895431 49.2917 2V43H26V2Z",
+    fill: "url(#paint1_linear_232_284)"
+  })), _rect14 || (_rect14 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.7917,
+    y: 25.9791,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect15 || (_rect15 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.7917,
+    y: 19.7084,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect16 || (_rect16 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.7917,
+    y: 13.4375,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect17 || (_rect17 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.7917,
+    y: 7.16663,
+    width: 19.7083,
+    height: 5.375,
+    rx: 1,
+    fill: "#295A88"
+  })), _rect18 || (_rect18 = /*#__PURE__*/React.createElement("rect", {
+    x: 26,
+    y: 38.5209,
+    width: 23.2917,
+    height: 4.47917,
+    fill: "#295A88"
+  })), _rect19 || (_rect19 = /*#__PURE__*/React.createElement("rect", {
+    x: 28.6875,
+    y: 8.0625,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect20 || (_rect20 = /*#__PURE__*/React.createElement("rect", {
+    x: 28.6875,
+    y: 14.3334,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect21 || (_rect21 = /*#__PURE__*/React.createElement("rect", {
+    x: 33.1667,
+    y: 20.6041,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect22 || (_rect22 = /*#__PURE__*/React.createElement("rect", {
+    x: 43.9167,
+    y: 8.0625,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect23 || (_rect23 = /*#__PURE__*/React.createElement("rect", {
+    x: 43.9167,
+    y: 14.3334,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect24 || (_rect24 = /*#__PURE__*/React.createElement("rect", {
+    x: 28.6875,
+    y: 20.6041,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect25 || (_rect25 = /*#__PURE__*/React.createElement("rect", {
+    x: 33.1667,
+    y: 26.875,
+    width: 13.4375,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _rect26 || (_rect26 = /*#__PURE__*/React.createElement("rect", {
+    x: 28.6875,
+    y: 26.875,
+    width: 2.6875,
+    height: 3.58333,
+    rx: 1,
+    fill: "#17FFD5"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_232_284",
+    x1: 11.6458,
+    y1: 0,
+    x2: 11.6458,
+    y2: 43,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#5D9DD8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#3E74A7"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_232_284",
+    x1: 37.6458,
+    y1: 0,
+    x2: 37.6458,
+    y2: 43,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#5D9DD8"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#3E74A7"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBareMetal);
+export default __webpack_public_path__ + "static/media/BareMetal.e3fd042ff86ff93cfc30de5ae5bf7815.svg";
+export { ForwardRef as ReactComponent };

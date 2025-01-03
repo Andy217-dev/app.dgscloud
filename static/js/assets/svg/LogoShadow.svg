@@ -1,0 +1,62 @@
+var _path, _path2, _path3, _path4, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgLogoShadow(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 106,
+    height: 118,
+    viewBox: "0 0 106 118",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M29.7637 60.8668V35.1761C29.7637 31.6882 28.3981 28.3706 25.9229 25.9036L18.1988 18.2049C14.3581 14.4193 7.87158 17.099 7.87158 22.4583V73.5846C7.87158 78.9439 14.3581 81.6236 18.1988 77.838L25.9229 70.1393C28.3981 67.6723 29.7637 64.3546 29.7637 60.8668Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M84.003 14.0789C79.5649 9.65529 74.4439 6.21001 68.6828 3.78556C62.7511 1.27603 56.4352 0 49.9487 0H29.9769C24.5999 0 21.9114 6.46522 25.7095 10.2933L33.4336 17.992C35.9087 20.459 39.2373 21.8201 42.7367 21.8201H49.5219C63.946 21.8201 75.9802 33.2193 76.1936 47.5959C76.407 62.2277 64.5434 74.1799 49.906 74.1799H42.7367C39.2373 74.1799 35.9087 75.541 33.4336 78.008L25.7095 85.7067C21.9114 89.4922 24.5999 96 29.9769 96H49.906C56.3926 96 62.7084 94.724 68.6828 92.2144C74.4439 89.79 79.5649 86.3447 84.003 81.9211C88.4412 77.4976 91.8979 72.3934 94.3303 66.6513C96.8481 60.739 98.1283 54.444 98.1283 47.9362C98.1283 41.4284 96.8481 35.1759 94.3303 29.2211C91.8979 23.6066 88.4412 18.4599 84.003 14.0789Z",
+    fill: "white"
+  })), /*#__PURE__*/React.createElement("g", {
+    style: {
+      mixBlendMode: "overlay"
+    },
+    filter: "url(#filter0_f_2001_2)"
+  }, _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M29.7637 105.51V101.496C29.7637 100.951 28.3981 100.433 25.9229 100.047L18.1988 98.8443C14.3581 98.2528 7.87158 98.6715 7.87158 99.5089V107.497C7.87158 108.335 14.3581 108.753 18.1988 108.162L25.9229 106.959C28.3981 106.574 29.7637 106.055 29.7637 105.51Z",
+    fill: "white",
+    fillOpacity: 0.5
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M84.003 98.1998C79.5649 97.5086 74.4439 96.9703 68.6828 96.5915C62.7511 96.1994 56.4352 96 49.9487 96H29.9769C24.5999 96 21.9114 97.0102 25.7095 97.6083L33.4336 98.8113C35.9087 99.1967 39.2373 99.4094 42.7367 99.4094H49.5219C63.946 99.4094 75.9802 101.191 76.1936 103.437C76.407 105.723 64.5434 107.591 49.906 107.591H42.7367C39.2373 107.591 35.9087 107.803 33.4336 108.189L25.7095 109.392C21.9114 109.983 24.5999 111 29.9769 111H49.906C56.3926 111 62.7084 110.801 68.6828 110.409C74.4439 110.03 79.5649 109.491 84.003 108.8C88.4412 108.109 91.8979 107.311 94.3303 106.414C96.8481 105.49 98.1283 104.507 98.1283 103.49C98.1283 102.473 96.8481 101.496 94.3303 100.566C91.8979 99.6885 88.4412 98.8844 84.003 98.1998Z",
+    fill: "white",
+    fillOpacity: 0.5
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_f_2001_2",
+    x: 0.871582,
+    y: 89,
+    width: 104.257,
+    height: 29,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "BackgroundImageFix",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 3.5,
+    result: "effect1_foregroundBlur_2001_2"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgLogoShadow);
+export default __webpack_public_path__ + "static/media/LogoShadow.f5655347668f9fd480fb48ab4548ccdf.svg";
+export { ForwardRef as ReactComponent };

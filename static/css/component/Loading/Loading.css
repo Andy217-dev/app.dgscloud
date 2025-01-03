@@ -1,0 +1,17 @@
+.loader {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #0f171f,
+    #021525,
+    #0f171f
+  ) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

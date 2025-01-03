@@ -1,0 +1,30 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDciLogo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 78,
+    height: 83,
+    viewBox: "0 0 78 83",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M19.0951 52.1397V30.1325C19.0951 27.1447 17.9253 24.3027 15.805 22.1895L9.18836 15.5946C5.89832 12.3518 0.341797 14.6472 0.341797 19.2381V63.0341C0.341797 67.625 5.89832 69.9205 9.18836 66.6777L15.805 60.0828C17.9253 57.9695 19.0951 55.1275 19.0951 52.1397Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M65.5579 12.0603C61.756 8.27094 57.3693 5.31964 52.4342 3.24279C47.3529 1.09308 41.9426 0 36.3861 0H19.2779C14.6718 0 12.3688 5.53825 15.6223 8.81748L22.2389 15.4124C24.3592 17.5257 27.2105 18.6916 30.2081 18.6916H36.0206C48.3765 18.6916 58.6853 28.4564 58.8681 40.7717C59.0509 53.3057 48.8883 63.5442 36.3496 63.5442H30.2081C27.2105 63.5442 24.3592 64.7101 22.2389 66.8234L15.6223 73.4183C12.3688 76.6611 14.6718 82.2358 19.2779 82.2358H36.3496C41.9061 82.2358 47.3164 81.1427 52.4342 78.993C57.3693 76.9161 61.756 73.9648 65.5579 70.1755C69.3597 66.3862 72.3207 62.0139 74.4044 57.095C76.5612 52.0304 77.6579 46.6379 77.6579 41.0632C77.6579 35.4885 76.5612 30.1325 74.4044 25.0314C72.3207 20.2219 69.3597 15.8132 65.5579 12.0603Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDciLogo);
+export default __webpack_public_path__ + "static/media/DCI_Logo.6f85b58912ea970cc3b2a03504f52912.svg";
+export { ForwardRef as ReactComponent };

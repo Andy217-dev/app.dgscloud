@@ -1,0 +1,284 @@
+var _path, _rect, _rect2, _rect3, _rect4, _rect5, _rect6, _rect7, _rect8, _rect9, _rect10, _rect11, _rect12, _rect13, _rect14, _rect15, _rect16, _rect17, _rect18, _rect19, _rect20, _rect21, _rect22, _rect23, _rect24, _rect25, _rect26, _rect27, _rect28, _rect29, _rect30, _rect31, _rect32, _rect33, _rect34, _rect35, _rect36, _rect37, _rect38, _rect39, _rect40, _circle, _circle2, _circle3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCloudGpuSvg(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 37,
+    height: 26,
+    viewBox: "0 0 37 26",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M2 0C0.895431 0 0 0.895433 0 2V23.2295C0 24.3341 0.895429 25.2295 2 25.2295H34.2674C35.372 25.2295 36.2674 24.3341 36.2674 23.2295V22.0758H33.9022V18.1337H36.2674V16.5569H33.9022V12.6148H36.2674V2C36.2674 0.895431 35.372 0 34.2674 0H18.9221V2.36527H5.51896V0H2Z",
+    fill: "#3981C4"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 4.73047,
+    y: 4.73047,
+    width: 10.2495,
+    height: 10.2495,
+    fill: "#76B6F1"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 7.0957,
+    y: 7.0957,
+    width: 5.51896,
+    height: 5.51896,
+    fill: "#6DF5DD"
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 5.23047,
+    y: 5.23047,
+    width: 9.24949,
+    height: 9.24949,
+    stroke: "#17FFD5"
+  })), _rect4 || (_rect4 = /*#__PURE__*/React.createElement("rect", {
+    x: 19.7104,
+    y: 7.88428,
+    width: 11.8263,
+    height: 4.73053,
+    fill: "#6DF5DD"
+  })), _rect5 || (_rect5 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.5769,
+    y: 1.57666,
+    width: 2.36527,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect6 || (_rect6 = /*#__PURE__*/React.createElement("rect", {
+    x: 8.67261,
+    y: 20.499,
+    width: 3.15369,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect7 || (_rect7 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.5769,
+    y: 4.73047,
+    width: 2.36527,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect8 || (_rect8 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.5769,
+    y: 7.88428,
+    width: 2.36527,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect9 || (_rect9 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.5769,
+    y: 10.2495,
+    width: 2.36527,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect10 || (_rect10 = /*#__PURE__*/React.createElement("rect", {
+    x: 4.73047,
+    y: 16.5571,
+    width: 2.36527,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect11 || (_rect11 = /*#__PURE__*/React.createElement("rect", {
+    x: 7.88428,
+    y: 16.5571,
+    width: 2.36527,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect12 || (_rect12 = /*#__PURE__*/React.createElement("rect", {
+    x: 11.0378,
+    y: 16.5571,
+    width: 2.36527,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect13 || (_rect13 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.5769,
+    y: 13.4033,
+    width: 2.36527,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect14 || (_rect14 = /*#__PURE__*/React.createElement("rect", {
+    x: 13.4031,
+    y: 20.499,
+    width: 2.36527,
+    height: 2.36527,
+    fill: "#336593"
+  })), _rect15 || (_rect15 = /*#__PURE__*/React.createElement("rect", {
+    x: 19.7104,
+    y: 3.15381,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect16 || (_rect16 = /*#__PURE__*/React.createElement("rect", {
+    x: 19.7104,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect17 || (_rect17 = /*#__PURE__*/React.createElement("rect", {
+    x: 19.7104,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect18 || (_rect18 = /*#__PURE__*/React.createElement("rect", {
+    x: 21.2874,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect19 || (_rect19 = /*#__PURE__*/React.createElement("rect", {
+    x: 21.2874,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect20 || (_rect20 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.5947,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect21 || (_rect21 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.5947,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect22 || (_rect22 = /*#__PURE__*/React.createElement("rect", {
+    x: 22.8643,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect23 || (_rect23 = /*#__PURE__*/React.createElement("rect", {
+    x: 22.8643,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect24 || (_rect24 = /*#__PURE__*/React.createElement("rect", {
+    x: 29.1716,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect25 || (_rect25 = /*#__PURE__*/React.createElement("rect", {
+    x: 29.1716,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect26 || (_rect26 = /*#__PURE__*/React.createElement("rect", {
+    x: 24.4412,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect27 || (_rect27 = /*#__PURE__*/React.createElement("rect", {
+    x: 24.4412,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect28 || (_rect28 = /*#__PURE__*/React.createElement("rect", {
+    x: 30.7485,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect29 || (_rect29 = /*#__PURE__*/React.createElement("rect", {
+    x: 30.7485,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect30 || (_rect30 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.0178,
+    y: 6.30762,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect31 || (_rect31 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.0178,
+    y: 13.4033,
+    width: 0.788422,
+    height: 0.788422,
+    fill: "#336593"
+  })), _rect32 || (_rect32 = /*#__PURE__*/React.createElement("rect", {
+    x: 21.2874,
+    y: 16.5571,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect33 || (_rect33 = /*#__PURE__*/React.createElement("rect", {
+    x: 21.2874,
+    y: 18.9224,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect34 || (_rect34 = /*#__PURE__*/React.createElement("rect", {
+    x: 22.8643,
+    y: 3.15381,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect35 || (_rect35 = /*#__PURE__*/React.createElement("rect", {
+    x: 24.4412,
+    y: 16.5571,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect36 || (_rect36 = /*#__PURE__*/React.createElement("rect", {
+    x: 24.4412,
+    y: 18.9224,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect37 || (_rect37 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.0178,
+    y: 3.15381,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect38 || (_rect38 = /*#__PURE__*/React.createElement("rect", {
+    x: 29.1716,
+    y: 3.15381,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect39 || (_rect39 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.5947,
+    y: 16.5571,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _rect40 || (_rect40 = /*#__PURE__*/React.createElement("rect", {
+    x: 27.5947,
+    y: 18.9224,
+    width: 1.57684,
+    height: 1.57684,
+    fill: "#336593"
+  })), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 33.9022,
+    cy: 5.51889,
+    r: 0.788422,
+    fill: "#336593"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    cx: 33.9022,
+    cy: 7.88413,
+    r: 0.788422,
+    fill: "#336593"
+  })), _circle3 || (_circle3 = /*#__PURE__*/React.createElement("circle", {
+    cx: 33.9022,
+    cy: 10.2494,
+    r: 0.788422,
+    fill: "#336593"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCloudGpuSvg);
+export default __webpack_public_path__ + "static/media/CloudGpuSvg.de9988808863f0179bbaf2976938878f.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,32 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgPaymentCheck(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 39,
+    height: 39,
+    viewBox: "0 0 39 39",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.1752 26.7995L8.75 19.3725L11.2245 16.898L16.1752 21.847L26.0732 11.9473L28.5495 14.4235L16.1752 26.7995Z",
+    fill: "#17FFD5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0 19.25C0 8.61875 8.61875 0 19.25 0C29.8813 0 38.5 8.61875 38.5 19.25C38.5 29.8813 29.8813 38.5 19.25 38.5C8.61875 38.5 0 29.8813 0 19.25ZM19.25 35C17.1817 35 15.1336 34.5926 13.2227 33.8011C11.3119 33.0096 9.57559 31.8495 8.11307 30.3869C6.65055 28.9244 5.49041 27.1881 4.6989 25.2773C3.90739 23.3664 3.5 21.3183 3.5 19.25C3.5 17.1817 3.90739 15.1336 4.6989 13.2227C5.49041 11.3119 6.65055 9.57559 8.11307 8.11307C9.57559 6.65055 11.3119 5.49041 13.2227 4.6989C15.1336 3.90739 17.1817 3.5 19.25 3.5C23.4272 3.5 27.4332 5.15937 30.3869 8.11307C33.3406 11.0668 35 15.0728 35 19.25C35 23.4272 33.3406 27.4332 30.3869 30.3869C27.4332 33.3406 23.4272 35 19.25 35Z",
+    fill: "#17FFD5"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgPaymentCheck);
+export default __webpack_public_path__ + "static/media/paymentCheck.996ad3ee14e291d6147cdad1cf81f66e.svg";
+export { ForwardRef as ReactComponent };

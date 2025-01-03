@@ -1,0 +1,144 @@
+var _rect, _rect2, _rect3, _rect4, _rect5, _rect6, _rect7, _rect8, _rect9, _rect10, _rect11, _rect12, _rect13, _rect14, _rect15, _rect16, _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgNetworkingIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 37,
+    height: 22,
+    viewBox: "0 0 37 22",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 23.4426,
+    width: 13.5574,
+    height: 21.4063,
+    rx: 1,
+    fill: "#336593"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 24.5129,
+    y: 1.07031,
+    width: 11.4167,
+    height: 19.2657,
+    rx: 1,
+    fill: "#5D9DD8"
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.2969,
+    y: 3.21094,
+    width: 7.84899,
+    height: 2.49741,
+    rx: 1,
+    fill: "#97CDFF"
+  })), _rect4 || (_rect4 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.2969,
+    y: 13.2007,
+    width: 7.84899,
+    height: 2.49741,
+    rx: 1,
+    fill: "#97CDFF"
+  })), _rect5 || (_rect5 = /*#__PURE__*/React.createElement("rect", {
+    x: 26.2969,
+    y: 8.5625,
+    width: 2.14063,
+    height: 1.42709,
+    rx: 0.713545,
+    fill: "#17FFD5"
+  })), _rect6 || (_rect6 = /*#__PURE__*/React.createElement("rect", {
+    x: 34.1458,
+    y: 12.4868,
+    width: 2.14063,
+    height: 1.42709,
+    rx: 0.713545,
+    transform: "rotate(-180 34.1458 12.4868)",
+    fill: "#17FFD5"
+  })), _rect7 || (_rect7 = /*#__PURE__*/React.createElement("rect", {
+    x: 29.1509,
+    y: 8.5625,
+    width: 4.99481,
+    height: 1.42709,
+    rx: 0.713545,
+    fill: "#17FFD5"
+  })), _rect8 || (_rect8 = /*#__PURE__*/React.createElement("rect", {
+    x: 31.2915,
+    y: 12.4868,
+    width: 4.99481,
+    height: 1.42709,
+    rx: 0.713545,
+    transform: "rotate(-180 31.2915 12.4868)",
+    fill: "#17FFD5"
+  })), _rect9 || (_rect9 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.252441,
+    width: 13.5574,
+    height: 21.4063,
+    rx: 1,
+    fill: "#336593"
+  })), _rect10 || (_rect10 = /*#__PURE__*/React.createElement("rect", {
+    x: 1.32275,
+    y: 1.07031,
+    width: 11.4167,
+    height: 19.2657,
+    rx: 1,
+    fill: "#5D9DD8"
+  })), _rect11 || (_rect11 = /*#__PURE__*/React.createElement("rect", {
+    x: 3.10669,
+    y: 3.21094,
+    width: 7.84899,
+    height: 2.49741,
+    rx: 1,
+    fill: "#97CDFF"
+  })), _rect12 || (_rect12 = /*#__PURE__*/React.createElement("rect", {
+    x: 3.10669,
+    y: 13.2007,
+    width: 7.84899,
+    height: 2.49741,
+    rx: 1,
+    fill: "#97CDFF"
+  })), _rect13 || (_rect13 = /*#__PURE__*/React.createElement("rect", {
+    x: 3.10669,
+    y: 8.5625,
+    width: 2.14063,
+    height: 1.42709,
+    rx: 0.713545,
+    fill: "#17FFD5"
+  })), _rect14 || (_rect14 = /*#__PURE__*/React.createElement("rect", {
+    x: 10.9556,
+    y: 12.4868,
+    width: 2.14063,
+    height: 1.42709,
+    rx: 0.713545,
+    transform: "rotate(-180 10.9556 12.4868)",
+    fill: "#17FFD5"
+  })), _rect15 || (_rect15 = /*#__PURE__*/React.createElement("rect", {
+    x: 5.96069,
+    y: 8.5625,
+    width: 4.99481,
+    height: 1.42709,
+    rx: 0.713545,
+    fill: "#17FFD5"
+  })), _rect16 || (_rect16 = /*#__PURE__*/React.createElement("rect", {
+    x: 8.10132,
+    y: 12.4868,
+    width: 4.99481,
+    height: 1.42709,
+    rx: 0.713545,
+    transform: "rotate(-180 8.10132 12.4868)",
+    fill: "#17FFD5"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M22.0123 6.71928C22.2075 6.52401 22.2075 6.20743 22.0123 6.01217L18.8303 2.83019C18.635 2.63493 18.3184 2.63493 18.1232 2.83019C17.9279 3.02545 17.9279 3.34203 18.1232 3.5373L20.9516 6.36572L18.1232 9.19415C17.9279 9.38941 17.9279 9.70599 18.1232 9.90126C18.3184 10.0965 18.635 10.0965 18.8303 9.90126L22.0123 6.71928ZM15.2368 6.86572H21.6587V5.86572H15.2368V6.86572Z",
+    fill: "#17FFD5"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.8832 14.687C14.688 14.8822 14.688 15.1988 14.8832 15.3941L18.0652 18.5761C18.2605 18.7713 18.5771 18.7713 18.7723 18.5761C18.9676 18.3808 18.9676 18.0642 18.7723 17.869L15.9439 15.0405L18.7723 12.2121C18.9676 12.0168 18.9676 11.7003 18.7723 11.505C18.5771 11.3097 18.2605 11.3097 18.0652 11.505L14.8832 14.687ZM21.6587 14.5405L15.2368 14.5405L15.2368 15.5405L21.6587 15.5405L21.6587 14.5405Z",
+    fill: "#17FFD5"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgNetworkingIcon);
+export default __webpack_public_path__ + "static/media/networking-icon.3bb1cd7c8ac7df15aeb3143a991474df.svg";
+export { ForwardRef as ReactComponent };

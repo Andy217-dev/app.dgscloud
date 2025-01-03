@@ -1,0 +1,40 @@
+var _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDotSvg(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 16,
+    height: 16,
+    viewBox: "0 0 16 16",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Group 135"
+  }, /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle 362",
+    width: 16,
+    height: 16,
+    rx: 2,
+    fill: "#336593"
+  }), /*#__PURE__*/React.createElement("rect", {
+    id: "Rectangle 363",
+    x: 3,
+    y: 3,
+    width: 10,
+    height: 10,
+    rx: 2,
+    fill: "#00E0FF"
+  }))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDotSvg);
+export default __webpack_public_path__ + "static/media/dotSvg.9b325a4ce7d7e424220853a94c4d7c2c.svg";
+export { ForwardRef as ReactComponent };
