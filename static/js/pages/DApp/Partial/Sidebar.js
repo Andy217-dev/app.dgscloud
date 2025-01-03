@@ -838,7 +838,7 @@ function DApp({ children }) {
             {drawer}
           </List>
           <List>
-            <Link to={"https://dcicloud.ai/"}>
+            <Link to={"https://dgscloud.vercel.app/"}>
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon className="text-white">
